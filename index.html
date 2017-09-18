@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+
+	<title>百度新闻</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/new.css">
+</head>
+<body>
+	<div class="containter">
+		<header class="cf">
+		<a href="#" class="logo"><span class="iconfont">&#xe6b7;</span></a>
+		<a href="#" class="user"><span class="iconfont">&#xe62a;</span></a>
+		<a href="#" class="add"><span class="iconfont">&#xe6b0;</span></a>
+		<a href="#" class="search"><span class="iconfont">&#xe504;</span></a>
+			
+		</header>
+		<nav>
+		<ul>
+			<li><a href="#">推荐</a><i></i></li>
+			<li><a href="#">百家</a><i></i></li>
+			<li><a href="#">本地</a><i></i></li>
+			<li><a href="#">图片</a><i></i></li>
+			<li><a href="#">娱乐</a><i></i></li>
+			<li><a href="#">社会</a><i></i></li>
+			<li><a href="#">军事</a><i></i></li>
+			<li><a href="#">互联网</a><i></i></li>
+			<li><a href="#">科技</a><i></i></li>
+			<li><a href="#">女人</a><i></i></li>
+			<li><a href="#">更多</a><i></i></li>
+		</ul>
+			
+		</nav>
+		<article class="new-main">
+		  	<ul class="new-lists">
+		  		<li class="new-list">
+		  			<div class="newsimg">
+		  				<img src="img/267f9e2f07082838ecdff4e6b199a9014d08f176.jpg" width="100%">
+		  			</div>
+		  			<div class="newscontent">
+		  				<h1>摩拜单车即将走向衰退共享经济没有理解透彻</h1>
+		  				<p>
+		  					<span class="newstime">2017-3-10</span>
+		  					<span class="newsrc">戴眼镜的设计师</span>
+		  				</p>
+		  			</div>
+		  		</li>
+		  		<!-- 第2个 -->
+		  		<li class="new-list">
+		  			<div class="newsimg">
+		  				<img src="img/267f9e2f07082838ecdff4e6b199a9014d08f176.jpg" width="100%">
+		  			</div>
+		  			<div class="newscontent">
+		  				<h1>摩拜单车即将走向衰退共享经济没有理解透彻</h1>
+		  				<p>
+		  					<span class="newstime">2017-3-10</span>
+		  					<span class="newsrc">戴眼镜的设计师</span>
+		  				</p>
+		  			</div>
+		  		</li>
+		  		<!-- 第3个 -->
+		  		<li class="new-list">
+		  			<div class="newsimg">
+		  				<img src="img/267f9e2f07082838ecdff4e6b199a9014d08f176.jpg" width="100%">
+		  			</div>
+		  			<div class="newscontent">
+		  				<h1>摩拜单车即将走向衰退共享经济没有理解透彻</h1>
+		  				<p>
+		  					<span class="newstime">2017-3-10</span>
+		  					<span class="newsrc">戴眼镜的设计师</span>
+		  				</p>
+		  			</div>
+		  		</li>
+		  		<!-- 第4个 -->
+		  		<li class="new-list">
+		  			<div class="newsimg">
+		  				<img src="img/267f9e2f07082838ecdff4e6b199a9014d08f176.jpg" width="100%">
+		  			</div>
+		  			<div class="newscontent">
+		  				<h1>摩拜单车即将走向衰退共享经济没有理解透彻</h1>
+		  				<p>
+		  					<span class="newstime">2017-3-10</span>
+		  					<span class="newsrc">戴眼镜的设计师</span>
+		  				</p>
+		  			</div>
+		  		</li>
+		  		<!-- 第5个 -->
+		  		<li class="new-list">
+		  			<div class="newsimg">
+		  				<img src="img/267f9e2f07082838ecdff4e6b199a9014d08f176.jpg" width="100%">
+		  			</div>
+		  			<div class="newscontent">
+		  				<h1>摩拜单车即将走向衰退共享经济没有理解透彻</h1>
+		  				<p>
+		  					<span class="newstime">2017-3-10</span>
+		  					<span class="newsrc">戴眼镜的设计师</span>
+		  				</p>
+		  			</div>
+		  		</li>
+		  		<li class="new-list">
+		  			<div class="newsimg">
+		  				<img src="img/267f9e2f07082838ecdff4e6b199a9014d08f176.jpg" width="100%">
+		  			</div>
+		  			<div class="newscontent">
+		  				<h1>摩拜单车即将走向衰退共享经济没有理解透彻</h1>
+		  				<p>
+		  					<span class="newstime">2017-3-10</span>
+		  					<span class="newsrc">戴眼镜的设计师</span>
+		  				</p>
+		  			</div>
+		  		</li>
+		  	</ul>
+
+		
+
+			
+		</article>
+		
+	</div>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var deviceWidth =$('body').width();
+
+			$('nav li').each(function(index,itme){
+				if($(this).find('a').html().split('').length>2){
+					$(this).width(deviceWidth/3);
+				}else{
+					$(this).width(deviceWidth/6);
+				}
+			});
+
+		});
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

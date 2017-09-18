@@ -1,0 +1,150 @@
+	.cf::before,
+	.cf::after{
+	content: "";
+	display: block;
+	clear: both;
+	}
+    html{
+    	font-size: 62.5%;
+    	font-family: arial;
+    	height: 100%;
+    }
+    body{
+    	height: 100%;
+    }
+    .containter{
+    	height: 100%;
+    	width: 100%;
+    }
+    a{
+    	text-decoration: none;
+    }
+    /*reset end*/
+    header{
+    	background:#2D80F0 url('../img/bg-news-logo_344ce44.png') no-repeat center center;
+        background-size: 5.4em;
+        border-bottom: 1px solid #509BF1;
+
+    }
+    header a{
+    	display: block;
+    	height: 4rem;
+    	line-height: 4rem;
+    	color: #fff;
+    	margin: 0 1rem;
+    }
+    header a:nth-child(1),
+    header a:nth-child(2){
+    	float: left;
+
+    }
+     header a:nth-child(3),
+     header a:nth-child(4){
+    	float: right;
+
+    }
+    header a .iconfont{
+    	font-size: 2rem;
+    }
+    nav{
+	background:#2D80F0;
+    }
+    nav ul {
+    	list-style: none;
+    	margin: 0;
+    	padding: 0;
+    	font-size: 0;
+    	/*font-size=0 去除空白*/
+    }
+    nav ul li{
+    	display: inline-block;
+    	font-size: 1.44rem;
+    	text-align: center;
+    	/*padding: 0;*/
+    }
+    nav  a{
+        display: inline-block;
+        padding:  1rem 0;
+        color: #fff;
+    }
+     nav ul i{
+     	display: inline-block;
+     	height: 1rem;
+        float: right;
+     	border-right: 1px solid #519AF3;
+     	position: relative;
+     	top: 1rem;
+     }
+     .new-lists{
+     	margin: 1rem 0 ;
+     	padding: 0 1rem;
+     	list-style: none;
+
+     }
+     .new-lists h1{
+        font-size: 1.3rem;
+        /*text-align: center;*/
+     }
+/*     .new-list  .newscontent p{
+     	margin-bottom: 1rem;
+     }*/
+     .new-list{
+     	display: flex;
+     	border-bottom: 1px solid #E6E6E6;
+     	margin-top: 1rem;
+     	
+     }
+     .newsimg{
+     	flex: 1;
+     }
+     .newscontent{
+     	flex: 2;
+     	
+     	margin-left: 1rem;
+     	margin-bottom: 1rem;
+     }
+
+     .newscontent span{
+     	display: inline-block;
+     	
+     	margin-left: 1rem;
+     	/*margin-bottom: 1rem;*/
+     }
+     .newscontent span:nth-child(2){
+     	border-radius: 3px;
+     	border: 1px solid red;
+     	margin-left: 1rem ;
+     	/*padding-bottom: 1rem;*/
+     	color: red;
+     	font-size: 1rem;
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
